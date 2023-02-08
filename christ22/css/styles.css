@@ -1,0 +1,443 @@
+/* CSS Browser Reset */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Pacifico&display=swap');
+/*
+font-family: 'Nerko One', cursive;
+font-family: 'Pacifico', cursive;
+*/
+
+body, header, nav, main, footer, h1, div, img, ul, li, section, img, h2, a, p {
+	margin: 0; 
+	padding: 0; 
+	border: 0;
+} 
+
+body {
+	background: linear-gradient(red, #6ec2db 50%, green);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+img {
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+	border-radius: 20px;
+	border: 2px solid #fff;
+}
+
+header h1 {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	padding-bottom: 10px;
+}
+
+header {
+	position: -webkit-sticky;
+	position: sticky;
+}
+
+.header img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+	border: 2px solid #fff;
+}
+
+/* Style rules for nav */
+nav {
+	margin: 0 auto;
+	margin-bottom: 1%;
+	margin-top: 1%;
+	background-color: #fff;
+	border: 2px solid #ccc;
+	max-width: 75%;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: 'Pacifico', cursive;
+	border-top: 1px solid #000;
+}
+
+nav li:first-child {
+	border-top: none;
+}
+
+nav li a {
+	display: block;
+	color: #000;
+	padding: .5em;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	color: white;
+	background-color: black;
+}
+
+.wrapper{
+	flex: 1;
+}
+
+
+main h2 {
+	padding: 2% 0;
+	text-align: center;
+}
+
+main p {
+	float:none;
+	font-family: 'Nerko One', cursive;
+	background-color: #E7E7E7;
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.price {
+	max-width: 15%
+}
+
+article {
+	padding-top: 2%;
+}
+
+footer {
+	text-align: center;
+	background-color: #fff;
+	line-height: bottom;
+	margin-top: auto;
+}
+
+footer hr {
+	margin-top: 25px;
+}
+
+footer p {
+	font-weight: bold;
+}
+
+footer p a {
+	text-decoration: none;
+	padding-top: 5px;
+	color: #cf3f4d;
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+.fineprint {
+	font-size: .5em;
+}
+
+section img {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+section a {
+	float: none;
+	display: block;
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Nerko One', cursive;
+	text-decoration: none;
+	color: #fff;
+	line-height: 100px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 20px;
+	height: 100px;
+}
+
+#picture {
+	border-radius: 20px;
+	max-width: 65%;
+	margin: 0 auto;
+}
+
+#guitar {
+	border-radius: 20px;
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.cssGrid {
+    display: block;
+    width: 100%;
+}
+
+#item1 {
+    background-image: url("../images/iphone.jpg");
+	background-size: cover;
+	background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 20px;
+	margin-bottom: 7%;
+	
+}
+#item2 {
+     background-image: url("../images/computerram.jpg");
+	background-size: cover;
+	background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 20px;
+	margin-bottom: 7%;
+}
+
+#item3 {
+     background-image: url(../images/guitar.jpg);
+	background-size: cover;
+	background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 20px;
+	margin-bottom: 7%;
+}
+#item4 {
+   background-image: url("../images/furry.jpg");
+	background-size: cover;
+	background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 20px;
+	margin-bottom: 7%;
+}
+#item5 {
+   background-image: url("../images/norampc.jpg");
+	background-size: cover;
+	background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 20px;
+	margin-bottom: 7%;
+}
+#item6 {
+	background-image: url("../images/gpu.jpg");
+	background-size: cover;
+	background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 20px;
+	margin-bottom: 7%;
+}
+#item7 {
+    background-image: url("../images/cpubox.jpg");
+	background-size: cover;
+	background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 20px;
+	margin-bottom: 7%;
+}
+#item8 {
+    background-image: url("../images/birdmoney.jpg");
+	background-size: cover;
+	background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 20px;
+	margin-bottom: 7%;
+}
+#item9 {
+    background-image: url("../images/ring.jpg");
+	background-size: cover;
+	background-position: 25% 25%;
+    min-height: 300px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 20px;
+	margin-bottom: 7%;
+}
+
+/* Start CSS Grid Code here */
+@supports (grid-area: auto) {  
+    /* Media Query Tablet */
+    @media screen and (min-width: 600px) {
+		
+		/* Apply CSS Grid */
+		.cssGrid {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 45% 45%;
+			grid-template-areas: 
+				"it1 it1"
+				"it2 it3"
+				"it4 it4"
+				"it5 it6"
+				"it7 it7"
+				"it8 it9";
+			grid-gap: 1% 1%;
+			margin: 10% 0;
+			justify-content: center;
+		}
+		
+		#item1 {
+			grid-area:it1;
+			background-color: #cf3f4d; 
+			border: 2px #fff solid;
+		}
+		
+		#item2 {
+			grid-area:it2;
+			background-color: #fff;
+			border: 2px #fff solid;
+		}
+		
+		#item3 {
+			grid-area:it3;
+			background-color: #fff;
+			border: 2px #fff solid;
+		}
+		
+		#item4 {
+			grid-area:it4;
+			background-color: #cf3f4d;
+			border: 2px #fff solid;
+		}
+		
+		#item5 {
+			grid-area:it5;
+			background-color: #fff;
+			border: 2px #fff solid;
+		}
+		
+		#item6 {
+			grid-area:it6;
+			background-color: #fff;
+			border: 2px #fff solid;
+		}
+		
+		#item7 {
+			grid-area:it7;
+			background-color: #cf3f4d;
+			border: 2px #fff solid;
+		}
+		
+		#item8 {
+			grid-area:it8;
+			background-color: #fff;
+			border: 2px #fff solid;
+		}
+		
+		#item9 {
+			grid-area:it9;
+			background-color: #fff;
+			border: 2px #fff solid;
+		}
+		
+		img {
+			max-width: 30%;
+		}
+		
+		main article p {
+			padding-bottom: 1%;
+			font-size: 2em;
+			border-radius: 10px;
+		}
+		
+		
+		
+    } /* Closing Media Query Tablet */
+    
+    /* Media Query Desktop */
+    @media screen and (min-width: 1000px) {
+       
+		/* Apply CSS Grid */
+		.cssGrid {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 29% 29% 29%;
+			grid-template-areas: 
+				"it1 it2 it3"
+				"it4 it5 it6"
+				"it7 it8 it9";
+			grid-gap: 1% 1%;
+			margin: 10% 0;
+			justify-content: center;
+		}
+		
+		
+		#item1 {
+			grid-area:it1;
+			background-color: #cf3f4d; 
+			border: 2px #fff solid;
+		}
+		
+		#item2 {
+			grid-area:it2;
+			background-color: #fff;
+			border: 2px #fff solid;
+		}
+		
+		#item3 {
+			grid-area:it3;
+			background-color: #cf3f4d;
+			border: 2px #fff solid;
+		}
+		
+		#item4 {
+			grid-area:it4;
+			background-color: #fff;
+			border: 2px #fff solid;
+		}
+		
+		#item5 {
+			grid-area:it5;
+			background-color: #cf3f4d;
+			border: 2px #fff solid;
+		}
+		
+		#item6 {
+			grid-area:it6;
+			background-color: #fff;
+			border: 2px #fff solid;
+		}
+		
+		#item7 {
+			grid-area:it7;
+			background-color: #cf3f4d;
+			border: 2px #fff solid;
+		}
+		
+		#item8 {
+			grid-area:it8;
+			background-color: #fff;
+			border: 2px #fff solid;
+		}
+		
+		#item9 {
+			grid-area:it9;
+			background-color: #cf3f4d;
+			border: 2px #fff solid;
+		}
+		
+		img {
+			width: 45%;
+			margin-bottom: 3%;
+		}
+		
+		main article p {
+			font-size: 1em;
+			border-radius: 10px;
+		}
+		
+    } /* Closing Media Query Desktop */
+    
+    /* Media Query Large Screen */
+    @media screen and (min-width: 1250px) {
+		.cssGrid {
+			width: 1250px;
+			margin: 0 auto;
+		}
+    }
+}
+/* End CSS Grid Code here */
+
