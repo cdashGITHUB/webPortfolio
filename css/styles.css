@@ -5,15 +5,50 @@
 	border: 0;
 }
 
+.id {
+	background-color: #220830;
+	color: #ffe;
+	min-height: 550px;
+	border-top: 5px #FA991B solid;
+	border-bottom: 5px #FA991B solid;
+}
+
+.id img {
+	width: 40%;
+}
+
+.id h1 {
+	float: right;
+	margin-top: 10%;
+	margin-right: 25%;
+	font-size: 3em;
+}
+
+header {
+	background-color: #8E48F0;
+}
+
 header h1 {
 	text-align: center;
+	color: #FA991B;
+}
+
+nav {
+	background-color: #8E48F0;
 }
 
 nav ul {
-	display: inline;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	padding: 1% 1%;
 }
 
 nav li a {
 	text-decoration: none;
 	list-style-type: none;
+	font-weight: bold;
+	color: #FA991B;
 }
