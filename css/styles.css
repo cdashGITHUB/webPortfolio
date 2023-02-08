@@ -1,0 +1,19 @@
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+header h1 {
+	text-align: center;
+}
+
+nav ul {
+	display: inline;
+}
+
+nav li a {
+	text-decoration: none;
+	list-style-type: none;
+}
