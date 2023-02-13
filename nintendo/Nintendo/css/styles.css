@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway&display=swap');
+
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+/*CSS reset*/
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside{
+	padding:0;
+	margin:0;
+	border:0;
+}
+
+body {
+	background-color: #ccc;
+}
+
+header img {
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2%;
+	border: 3px solid #fff;
+	box-shadow: 5px 10px 8px #fff;
+}
+
+.mini {
+	width: 10%;
+	float: left;
+	margin: 1% 5%;
+}
+
+.color {
+	background-color: #f00;
+	color: #fff;
+}
+
+.force {
+	position: absolute;
+}
+
+header h1 {
+	padding-top: 1%;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav {
+	padding: 1% 0;
+	background-color: #f00;
+	font-family: 'Raleway', sans-serif;
+}
+
+nav ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 1.25em;
+	background-color: #f00;
+	margin: 0 1%;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 1% 10%;
+}
+
+nav li a:hover {
+	background-color: #fff;
+	color: #f00;
+	border-radius: 10px;
+}
+
+main {
+	padding: 0 2%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+main p {
+	font-size: 1.1em
+}
+
+footer {
+	position: relative;
+	color: #fff;
+	text-align: center;
+	background-color: #f00;
+	bottom: 0;
+	width: 100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+footer ul {
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: .5%;
+}
+
+footer li {
+	display: inline-block;
+	background-color: #f00;
+	margin: 0 1%;
+}
+
+footer li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 1% 14%;
+}
+
+footer li a:hover {
+	background-color: #fff;
+	color: #f00;
+	border-radius: 10px;
+}
