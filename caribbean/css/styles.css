@@ -1,0 +1,193 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Zeyada&display=swap');
+
+/*
+font-family: 'Crimson Text', serif;
+font-family: 'Zeyada', cursive;
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	font-family: 'Crimson Text', serif;
+}
+
+header {
+	width: 100%;
+	background-color: #C2B473;
+	color: #91E1F6;
+	text-align: center;
+	font-family: 'Zeyada', cursive;
+	padding: 1% 0;
+	font-size: 1.3em;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+.top-nav {
+	width: 100%;
+	background-color: #8F8454;
+	min-height: 50px;
+	text-align: center;
+	font-family: 'Zeyada', cursive;
+}
+
+.top-nav ul {
+	display: block;
+	padding-top: .4em;
+}
+
+.top-nav ul li {
+	display: inline-block;
+	list-style-type: none;
+	width: 10%;
+	padding: 0 2%;
+}
+
+.top-nav a {
+	text-decoration: none;
+	color: #4CC2BA;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.top-nav a:hover {
+	background-color: #4CC2BA;
+	color: #8F8454;
+	border-radius: 10px;
+	padding: 0 10px;
+}
+
+.home {
+	min-height: 500px;
+	width: 100%;
+	background-image: url("../images/home_Beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 50%;
+}
+
+.trunk {
+	min-height: 500px;
+	width: 100%;
+	background-image: url("../images/trunkBayBeach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 50%;
+}
+
+.shoal {
+	min-height: 500px;
+	width: 100%;
+	background-image: url("../images/ShoalBayEast.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 50%;
+}
+
+.grace {
+	min-height: 500px;
+	width: 100%;
+	background-image: url("../images/GraceBayBeach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 50%;
+}
+
+.news {
+	min-height: 500px;
+	width: 100%;
+	background-image: url("../images/newsletter_Beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:50% 50%;
+}
+
+main p {
+	padding: 0 2%;
+	margin: 0 2%;
+	text-align: center;
+	background-color: rgb(256, 256, 256, 70%);
+	font-size: 1.2em;
+	padding-top: auto;
+	border-radius: 10px;
+}
+
+blockquote {
+	font-size: 3em;
+	text-align: center;
+	padding: 2%;
+}
+
+table {
+	margin: 0 auto;
+}
+
+input {
+	padding: 2px 0;
+	background-color: #ccc;
+}
+
+form {
+	background-color: rgb(256, 256, 256, 70%);
+	width: 50%;
+	margin: 0 auto;
+	font-size: 1.5em;
+	border-radius: 10px;
+}
+
+.btn {
+	font-size: .7em;
+	padding: 2px 5px;
+	border: 2px solid #111;
+	border-radius: 5px;
+}
+
+img {
+	padding: 1% 1%;
+	width: 40%;
+}
+
+footer {
+	min-height: 200px;
+	background-color: #C2B473;
+	text-align: center;
+	color: #91E1F6;
+	font-family: 'Crimson Text', serif;
+}
+
+.foot-nav {
+	width: 100%;
+	padding-bottom: .8em;
+	min-height: 20px;
+	font-family: 'Zeyada', cursive;
+}
+
+.foot-nav ul {
+	display: block;
+	background-color: #8F8454;
+	text-align: center;
+	padding: .5% 0;
+}
+
+.foot-nav ul li {
+	display: inline-block;
+	padding: 0 1%;
+}
+
+.foot-nav a {
+	font-size: 1.2em;
+	list-style-type: none;
+	color: #4CC2BA;
+	font-weight: bold;
+}
